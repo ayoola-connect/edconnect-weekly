@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary" style="margin: 0px 10px 0px 10px;">
+     <a href="#" class="navbar-brand">Project Explorer</a>
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarMenu">
+     <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="#" class="nav-link">Submit</a>
+      </li>
+    </ul>
+      <ul class="navbar-nav ml-auto">
+       <li class="nav-item">
+         <a href="#" class="nav-link">Sign Up</a>
+       </li>
+       <li class="navber-item">
+        <a href="#" class="nav-link">Login</a>
+      </li>
+     </ul>
+    </div>
+  </nav>
+  <body>
+  <div class="container">
+      <p style="margin-top: 40px;"><strong>Ade Chuks</strong> ade@edconnect.ng</p>
+     <div class="row bg-light">
+         <div class="col-md-4">
+           <p>
+            Program<br>
+            Computer Information Systems
+           </p>
+         </div>
+         <div class="col-md-4">
+            <p>
+             Matriculation number<br>
+             33/3333
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+            Graduation year<br>
+             2018
+            </p>
+          </div>
+     </div>
+     <p style="margin-top: 40px;"><strong>Update Profile</strong></p>
+     <hr>
+     <div class="mx-auto w-75">
+     <form style="margin-top: 40px;">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+            <label for="inputName">First name</label>
+            <input type="email" class="form-control" id="inputName">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputName">Last name</label>
+            <input type="email" class="form-control" id="inputName">
+          </div>
+     </div>
+     <div class="form-row">
+        <div class="form-group col-md-6">
+        <label for="inputEmail">Email address</label>
+        <input type="email" class="form-control" id="inputName">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputProgram">Program</label>
+        <select id="inputProgram" class="form-control">
+          <option selected>Choose...</option>
+          <option >
+            <option value="computer_science">Computer Science</option>
+            <option value="computer_information_systems">Computer Information Systems</option>
+            <option value="computer_technology">Computer Technology</option>
+          </option>
+        </select>
+      </div>
+     </div>
+     <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputNumber">Matriculation number</label>
+            <input type="number" class="form-control" id="inputNumber">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputYear">Graduation year</label>
+            <select id="inputYear" class="form-control">
+              <option selected>Choose...</option>
+              <option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+              </option>
+            </select>
+           </div>
+     </div>
+     </form>
+     <button type="button" class="btn-primary">Update Profile</button>
+    </div>
+    <p style="margin-top: 40px;"><strong>Change Password</strong></p>
+    <hr>
+    <div class="mx-auto w-75">
+    <form style="margin-top: 40px;">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputPassword">Current password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Current Password">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputPassword">New password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Your new password">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputPassword">Confirm password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Confirm new password">
+            </div>
+        </div>
+    </form>
+</div>
+      <footer>
+          <div class="bg-light" style="margin: 30px 0px 0px 15px; height: 30px;">
+              <small style="margin-left: 1110px;">
+                <div style="padding-top: 5px ; margin-left: 870px ;">Project Explorer &copy; 2020-<strong>Edconnect</strong></div>
+                </small>
+              </div>
+      </footer>
+  </div>
+</body>
