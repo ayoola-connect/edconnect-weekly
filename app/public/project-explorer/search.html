@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -9,100 +10,105 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../project-explorer/css/bootstrap.min.css">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary" style="margin: 0px 10px 0px 10px;">
-     <a href="#" class="navbar-brand">Project Explorer</a>
-     <form class="form-inline my-2 my-lg-0">
+    <a href="#" class="navbar-brand">Project Explorer</a>
+    <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
       <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
     </form>
-     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarMenu">
-     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a href="#" class="nav-link">Submit</a>
-      </li>
-    </ul>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Submit</a>
+        </li>
+      </ul>
       <ul class="navbar-nav ml-auto">
-       <li class="nav-item">
-         <a href="#" class="nav-link">Sign Up</a>
-       </li>
-       <li class="navber-item">
-        <a href="#" class="nav-link">Login</a>
-      </li>
-     </ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Sign Up</a>
+        </li>
+        <li class="navber-item">
+          <a href="#" class="nav-link">Login</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
   <body>
-      <div class="container">
-          <p style="margin-top: 40px;"><strong>Project Gallery</strong></p>
-          <div class="bg-light p-3">
-         <div class="form-row">
-             <div class="form-group col-md-8">
-                 <input type="text" class="form-control form-control-lg" name='searchTerm' id="inputText" placeholder="Search project name, authors, abstract, tags">
-             </div>
-              <div>
-                      <button type="submit" class="btn btn-light btn-lg">Search by</button>
-                    </div>
-             <div>
-                  <select id="inputName" name="searchType" class="form-control form-control-lg">
-                      <option selected>Name...</option>
-                  </select>
-              </div>
-            <div class="form-group col">
-              <button type="submit" class="btn btn-lg btn-primary">Submit</button>
-            </div>
-         </div>
+    <div class="container">
+      <p style="margin-top: 40px;"><strong>Project Gallery</strong></p>
+      <div class="bg-light p-3">
+        <form class="form-row">
+          <div class="form-group col-md-8">
+            <input type="text" class="form-control form-control-lg" name='searchTerm' id="inputText"
+              placeholder="Search project name, authors, abstract, tags">
           </div>
-          <p style="margin-top: 40;"><strong>All Projects</strong> (0 results)</p>
-          <div class="row" style="margin-top: 30px;">
-            <div class="col-sm-3">
-              <section>
-              <div class="card" style="margin: -17px -10px 0px 0px;">
-                <div style="margin: 10px 3px 10px 15px;">
-            <title class="">Project title</title>
-            <h3 class="card-title text-primary">Project title</h3>
-            <p class="card-subtitle"> Author 1 Author 2</p>
-              <p class="card-text">Some quick example of text to build on the card title and make up the bulk of the card content.</p>
-              <div class="text-primary">
-                <nav class="row">
-                  <a href="#" class="nav-link">#html</a>
-                  <a href="#" class="nav-link">#css</a>
-                  <a href="#" class="nav-link">#javascript</a>
-                </nav>
+          <div class="form-group">
+            <div class="form-label"> Search by</div>
+          </div>
+          <div class="form-group">
+            <select id="inputName" name="searchType" class="form-control form-control-lg">
+              <option selected>Name...</option>
+            </select>
+          </div>
+          <div class="form-group col">
+            <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+      <p style="margin-top: 40;"><strong>All Projects</strong> (0 results)</p>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-sm-3">
+          <section>
+            <div class="card" style="margin: -17px -10px 0px 0px;">
+              <div style="margin: 10px 3px 10px 15px;">
+                <title class="">Project title</title>
+                <h3 class="card-title text-primary">Project title</h3>
+                <p class="card-subtitle"> Author 1 Author 2</p>
+                <p class="card-text">Some quick example of text to build on the card title and make up the bulk of the
+                  card content.</p>
+                <div class="text-primary">
+                  <nav class="row">
+                    <a href="#" class="nav-link">#html</a>
+                    <a href="#" class="nav-link">#css</a>
+                    <a href="#" class="nav-link">#javascript</a>
+                  </nav>
                 </div>
               </div>
-              </div>
-            </section>
             </div>
-        <div class="col-sm-3">
-        <section>
-          <div class="card" style="margin: -17px -10px 0px -10px;">
-            <div style="margin: 10px 10px 10px 15px;">
-          <title>Project title</title>
-          <h3 class=" card-title text-primary">Project title</h3>
-          <p class="card-subtitle"> Author 1 Author 2</P>
-            <p>Some quick example of text to build on the card title and make up the bulk of the card content.</p>
-            <div class="text-primary">
-              <nav class="row">
-                <a href="#" class="nav-link">#html</a>
-                <a href="#" class="nav-link">#css</a>
-                <a href="#" class="nav-link">#javascript</a>
-              </nav>
-              </div>
-            </div>
-          </div>
           </section>
-          </div>
-          </div>
-          <footer>
-              <div class="bg-light" style="margin: 10px 0px 0px 0px; height: 30px;">
-                  <small style="margin-left: 1110px;">
-                    <div style="padding-top: 5px ; margin-left: 900px ;">Project Explorer &copy; 2020-<strong>Edconnect</strong></div>
-                    </small>
-                  </div>
-          </footer>
+        </div>
+        <div class="col-sm-3">
+          <section>
+            <div class="card" style="margin: -17px -10px 0px -10px;">
+              <div style="margin: 10px 10px 10px 15px;">
+                <title>Project title</title>
+                <h3 class=" card-title text-primary">Project title</h3>
+                <p class="card-subtitle"> Author 1 Author 2</P>
+                <p>Some quick example of text to build on the card title and make up the bulk of the card content.</p>
+                <div class="text-primary">
+                  <nav class="row">
+                    <a href="#" class="nav-link">#html</a>
+                    <a href="#" class="nav-link">#css</a>
+                    <a href="#" class="nav-link">#javascript</a>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
+      <footer>
+        <div class="bg-light" style="margin: 10px 0px 0px 0px; height: 30px;">
+          <small style="margin-left: 1110px;">
+            <div style="padding-top: 5px ; margin-left: 900px ;">Project Explorer &copy; 2020-<strong>Edconnect</strong>
+            </div>
+          </small>
+        </div>
+      </footer>
+    </div>
   </body>
