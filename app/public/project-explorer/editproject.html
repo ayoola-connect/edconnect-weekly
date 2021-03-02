@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -9,104 +10,106 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../project-explorer/css/bootstrap.min.css">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary" style="margin: 0px 10px 0px 10px;">
-     <a href="#" class="navbar-brand">Project Explorer</a>
-     <form class="form-inline my-2 my-lg-0">
+    <a href="#" class="navbar-brand">Project Explorer</a>
+    <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
       <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
     </form>
-     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarMenu">
-     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a href="#" class="nav-link">Submit</a>
-      </li>
-    </ul>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Submit</a>
+        </li>
+      </ul>
       <ul class="navbar-nav ml-auto">
-       <li class="nav-item">
-         <a href="#" class="nav-link">Sign Up</a>
-       </li>
-       <li class="navber-item">
-        <a href="#" class="nav-link">Login</a>
-      </li>
-     </ul>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Sign Up</a>
+        </li>
+        <li class="navber-item">
+          <a href="#" class="nav-link">Login</a>
+        </li>
+      </ul>
     </div>
   </nav>
-  <body>
-      <div class="container">
-          <p style="margin-top: 40px;"><strong>Project 1</strong></p>
-          <div class="bg-light">
-              <div style="margin: 20px;">
-      <div class="row">
-          <div class="col-md-3" style="margin-top: 10px;">
-          <P>
-           Created By <br>
-           Ade Chris
-          </P>
-        </div>
-        <div class="col-md-3" style="margin-top: 10px;">
-            <P>
-             Date Created <br>
-             2020-08-30
-            </P>
-          </div>
-          <div class="col-md-3" style="margin-top: 10px;">
-            <P>
-             Last Updated <br>
-             2020-08-30
-            </P>
-          </div>
-          <div class="col-md-3 d-flex align-items-center justify-content-end">
-          <button type="submit" class="btn btn-primary">View Project</button>
-        </div>
-    </div>
-    </div>
-          </div>
-    <form>
-        <div class="form-row">
-            <div class="col-md-6">
-                <p style="margin-top: 40px;"><strong>Edit Project</strong></p>
-                <hr>
-                <label for="inputName">Project name</label>
-                <input type="text" class="form-control" name="name" placeholder="Project 1"><br>
-                <label for="inputabstract">Project abstract</label>
-                <textarea type="text" class="form-control" name="abstract" style="line-height: 70px;" id="inputabstrac" placeholder="Project 1 is a very interesting project"></textarea><br>
-                <label for="inputName">Author(s)</label>
-                <input type="text" class="form-control" name="authors" placeholder="Ade Chris"><br>
-                <label for="inputName">Tag(s)</label>
-                <input type="text" class="form-control" name="tags" placeholder="#web"><br>
-                <button type="button" class="btn btn-primary">Save</button>
+    <div class="container">
+      <p style="margin-top: 40px;"><strong>Project 1</strong></p>
+      <div class="bg-light">
+        <div style="margin: 20px;">
+          <div class="row">
+            <div class="col-md-3" style="margin-top: 10px;">
+              <P>
+                Created By <br>
+                Ade Chris
+              </P>
             </div>
-            <div class="col-md-6">
-             <p style="margin-top: 40px;"><strong>Manage Project Files</strong></p>
-             <hr>
-             <form>
-                 <div class="custom-file">
-                    <input type="file" class="cutom-file-input" id="customFile">
-                    <label class="custom-file-label" for="customFile">Click to open file browser</label>
-                 </div>
-             </form>
-             <hr>
-             <div class="card text-center">
-                 <div class="card-header">
-                     Project files
-                 </div>
-                 <div class="card-body">
-                  <p class="card-text">No file uploaded yet</p>
-                 </div>
-             </div>
+            <div class="col-md-3" style="margin-top: 10px;">
+              <P>
+                Date Created <br>
+                2020-08-30
+              </P>
             </div>
+            <div class="col-md-3" style="margin-top: 10px;">
+              <P>
+                Last Updated <br>
+                2020-08-30
+              </P>
+            </div>
+            <div class="col-md-3 d-flex align-items-center justify-content-end">
+              <a href="viewproject.html" class="btn btn-primary">view project</a>
+            </div>
+          </div>
         </div>
-    </form>
-    <footer>
-        <div class="bg-light" style="margin: 30px 0px 0px 15px; height: 30px;">
-            <small style="margin-left: 1110px;">
-              <div style="padding-top: 5px ; margin-left: 870px ;">Project Explorer &copy; 2020-<strong>Edconnect</strong></div>
-              </small>
-            </div>
-    </footer>
       </div>
+      <form>
+        <div class="form-row">
+          <div class="col-md-6">
+            <p style="margin-top: 40px;"><strong>Edit Project</strong></p>
+            <hr>
+            <label for="inputName">Project name</label>
+            <input type="text" class="form-control" name="name" placeholder="Project 1"><br>
+            <label for="inputabstract">Project abstract</label>
+            <textarea type="text" class="form-control" name="abstract" style="line-height: 70px;" id="inputabstrac"
+              placeholder="Project 1 is a very interesting project"></textarea><br>
+            <label for="inputName">Author(s)</label>
+            <input type="text" class="form-control" name="authors" placeholder="Ade Chris"><br>
+            <label for="inputName">Tag(s)</label>
+            <input type="text" class="form-control" name="tags" placeholder="#web"><br>
+            <button type="button" class="btn btn-primary">Save</button>
+          </div>
+          <div class="col-md-6">
+            <p style="margin-top: 40px;"><strong>Manage Project Files</strong></p>
+            <hr>
+            <form>
+              <div class="custom-file">
+                <input type="file" class="cutom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Click to open file browser</label>
+              </div>
+            </form>
+            <hr>
+            <div class="card text-center">
+              <div class="card-header">
+                Project files
+              </div>
+              <div class="card-body">
+                <p class="card-text">No file uploaded yet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <footer>
+        <div class="bg-light" style="margin: 30px 0px 0px 15px; height: 30px;">
+          <small style="margin-left: 1110px;">
+            <div style="padding-top: 5px ; margin-left: 870px ;">Project Explorer &copy; 2020-<strong>Edconnect</strong>
+            </div>
+          </small>
+        </div>
+      </footer>
+    </div>
   </body>
